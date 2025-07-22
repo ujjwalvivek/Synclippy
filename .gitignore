@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+backend/content/media
+assets/fonts/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+*.local
+
+# Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build output (if I add a build step)
+dist/
+build/
+notepad-dist/
+
+# Misc
+functions/node_modules/
+functions/lib/
